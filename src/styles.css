@@ -17,3 +17,11 @@ body {
    * CSS image reference example.
    */
 }
+.article {
+  list-style: none;
+}
+.country-img {
+  display: block;
+  width: 500px;
+  height: auto;
+}

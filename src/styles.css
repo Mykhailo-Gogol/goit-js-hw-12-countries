@@ -20,8 +20,18 @@ body {
 .article {
   list-style: none;
 }
-.country-img {
+
+.country-flag {
   display: block;
   width: 500px;
   height: auto;
+  padding: 20px 0;
+}
+
+.search-input {
+  display: block;
+  padding: 10px;
+  width: 300px;
+  font-size: 20px;
+  margin-top: 50px;
 }

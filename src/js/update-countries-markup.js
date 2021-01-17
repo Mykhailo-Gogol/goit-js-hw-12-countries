@@ -1,7 +1,7 @@
 import references from "../refs/references.js";
 import countriesListTemplate from "../templates/countries-list.hbs";
 import countryTemplate from "../templates/country.hbs";
-import runNotification from "./notification.js";
+import runInfoNotification from "./info-notification.js";
 
 function updateCountriesMarkup(data) {
   const countriesListMarkup = countriesListTemplate(data);
@@ -14,7 +14,7 @@ function updateCountriesMarkup(data) {
   }
 
   if (data.length > 10) {
-    runNotification();
+    runInfoNotification();
   }
 
   if (data.length === 1) {

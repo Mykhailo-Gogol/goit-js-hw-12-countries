@@ -1,12 +1,12 @@
 import "@pnotify/core/dist/PNotify.css";
 import "@pnotify/core/dist/BrightTheme.css";
-import { error } from "@pnotify/core";
+import { info } from "@pnotify/core";
 
-function runNotification() {
-  error({
+function runInfoNotification() {
+  info({
     text: "Too many matches found. Please enter a more specific query!",
-    delay: 2500,
+    delay: 1000,
   });
 }
 
-export default runNotification;
+export default runInfoNotification;

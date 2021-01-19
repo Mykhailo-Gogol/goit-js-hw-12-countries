@@ -12,27 +12,55 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
 }
 
-.article {
+h1,
+ul,
+p {
+  text-align: center;
+}
+
+.countries-article {
+  padding: 50px 0;
+}
+
+.countries {
   list-style: none;
 }
 
-.article > li {
+.countries > li {
   padding: 5px 0;
 }
 
 .country-flag {
-  display: block;
   width: 500px;
   height: auto;
-  padding: 20px 0;
+  margin-top: 20px;
+  box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.5);
 }
 
 .search-input {
   display: block;
   padding: 10px;
   width: 300px;
-  font-size: 20px;
-  margin-top: 50px;
+  height: 50px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.language {
+  list-style: none;
+  padding-left: 0;
+}
+
+.language > li {
+  color: forestgreen;
+}
+
+.coutry-container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }

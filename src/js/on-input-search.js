@@ -7,10 +7,11 @@ function onInputSearch(event) {
   const inputValue = event.target.value;
 
   if (!inputValue) {
-    references.article.innerHTML = "";
+    references.countries.innerHTML = "";
   }
   if (inputValue) {
     const url = `https://restcountries.eu/rest/v2/name/${inputValue}`;
+
     fetchCountries(url).then((data) => updateCountriesMarkup(data));
   }
 }

@@ -4,7 +4,7 @@ import { info } from "@pnotify/core";
 
 function runInfoNotification() {
   info({
-    text: "Too many matches found. Please enter a more specific query!",
+    text: "Please enter a more specific query! Too many matches found. ",
     delay: 1000,
   });
 }
